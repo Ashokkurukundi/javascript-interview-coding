@@ -1,6 +1,6 @@
 const root = document.getElementById('root')
 let count = 0 ;
-//Create a progress bar that takes n seconds to complete. Make the progress bar queueable i.e on button click progress bar should restart after current one is completed
+
 function addProgressBar(){
     if(count === 0){
         create();
