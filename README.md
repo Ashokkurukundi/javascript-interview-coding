@@ -8,7 +8,9 @@ A curated list of frontend coding interview questions to help you prepare for yo
 - [Questions](#questions)
   - [1. In Memory Search Engine](#1-in-memory-search-engine)
   - [2. Animate Progress Bar in Sequence](#2-animate-progress-bar-in-sequence)
-  - [3. Toggle function arguments](#3-toggle-function-arguments)  <!-- Updated -->
+  - [3. Toggle function arguments](#3-toggle-function-arguments)
+  - [4. Retry Promises](#4-retry-promises)
+  - [5. Efficient Fibonacci Calculation with Memoization](#5-efficient-fibonacci-calculation-with-memoization)
   
 ## Introduction
 
@@ -28,3 +30,13 @@ Welcome to the Frontend Interview Coding Round Questions repository! This collec
 
 **Challenge:** 
 Create a JavaScript function `toggle` that takes multiple string arguments representing states and returns a function that cycles through and logs these states each time it's called, looping back to the beginning after reaching the end.
+
+### 4. Retry Promises
+
+**Challenge:** 
+Implement a function in JavaScript that retries promises N number of times with a delay between each call.
+
+### 5. Efficient Fibonacci Calculation with Memoization
+
+**Challenge:** Create a function to find the nth Fibonacci number efficiently using memoization. Implement `fibonacci(n)` where `n` (0 ≤ n ≤ 100) is the position of the Fibonacci number. Optimize calculations to enhance performance for larger `n` values.
+
